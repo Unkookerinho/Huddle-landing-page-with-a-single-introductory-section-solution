@@ -127,7 +127,7 @@ main {
 
 /* SOCIAL MEDIA ICONS */
 
-.social-media {
+.social-media ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -135,7 +135,7 @@ main {
     gap: 10px;
 }
 
-.social-media ul {
+.social-media li {
     cursor: pointer;
 
     display: flex;
@@ -153,16 +153,16 @@ main {
     transition: border-color 0.3s;
 }
 
-.social-media ul svg {
+.social-media li svg {
     fill: white;
     transition: fill 0.3s;
 }
 
-.social-media ul:hover svg {
+.social-media li:hover svg {
     fill: var(--clr-soft-magenta);
 }
 
-.social-media ul:hover {
+.social-media li:hover {
     border-color: var(--clr-soft-magenta);
 }
 
@@ -206,7 +206,7 @@ main {
         align-self: flex-end;
         transform: translateY(10rem);
     }
-    .social-media ul {
+    .social-media li {
         width: 45px;
         height: 45px;
     }
